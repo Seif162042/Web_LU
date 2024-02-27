@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="Fr">
+    <head>
+        <meta charset="utf-8">
+        <title>SITE CGI</title>
+        <link rel="stylesheet" href="./style/common.css">
+        <link rel="stylesheet" href="./style/contact.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html" target="_blank"><img src="img/logo_cgi.png" alt="Logo de CGI"></a>
+            <nav>
+                <div class="sepA"></div>
+                <a href="index.html">Acceuil</a>
+                <div class="sepA"></div>
+                <a href="qui-est-cgi.html">Qui est CGI</a>
+                <div class="sepA"></div>
+                <a href="cgietdev.html">CGI et le développement durable</a>
+                <div class="sepA"></div>
+            </nav>
+        </header>
+        <main>
+            <h1>Formulaire demande de stage</h1>
+            <form>
+                <div>
+                    <label for="name">Nom: </label>
+                    <input type="text" name="name" id="name" placeholder="Votre nom">
+                    <label for="firstName">Prénom:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Votre prénom">
+                </div>
+                <div>
+                    <label for="date">Date de naissance:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="mail" name="email" id="email" placeholder="Votre adresse mail">
+                </div>
+                <div>
+                    <label for="ecole">Votre école:</label>
+                    <input type="text" name="ecole" id="ecole">
+                    <label for="niveau">Niveau scolaire:</label>
+                    <input list="niveauScolaire" id="niveau" name="niveau">
+                    <datalist id="niveauScolaire">
+                        <option value="4ème"></option>
+                        <option value="3ème"></option>
+                        <option value="Seconde"></option>
+                        <option value="Première"></option>
+                        <option value="Terminal"></option>
+                        <option value="Etudes Sup"></option>
+                    </datalist>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>            
+        </main>
+        <footer>
+            <div id="footer-nous">
+                <h4>Qui sommes-nous ?</h4>
+                <ul>
+                    <li><a href="https://www.cgi.com/france/fr-fr/blog/home">Blog</a></li>
+                    <li><a href="https://www.cgi.com/france/fr-fr/ecosysteme">Nos partenaires</a></li>
+                    <li><a href="https://www.cgi.com/france/fr-fr/mediacenter">Centre des medias</a></li>
+                    <li><a href="https://www.cgi.com/france/fr-fr/partenaire-digital-asm">Partenaire digitales de
+                            L'ASM</a></li>
+                </ul>
+            </div>
+            <div id="footer-info">
+                <h4>Des informations sur nous</h4>
+                <ul>
+                    <li>Fondée en 1976, CGI figure parmi les plus importantes entreprises de services numériques et
+                        de conseil au monde. Nous sommes guidés par les faits et axés sur les résultats afin
+                        d’accélérer le rendement de vos investissements</li>
+                </ul>
+    
+            </div>
+            <div id="footer-stage">
+                <h4>Demandes de stages</h4>
+                <a href="./contact.html">Pour nous contacter et faire une demande de stage c'est ici</a>
+    
+            </div>
+            <div id="footer-reseaux">
+                <h4>Pour nous suivre </h4>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/cgi/" title="" target="_blank"><img
+                            src="img/linkdin.png" alt="logo de linkdin">
+                        <a href="https://twitter.com/cgi_fr" target="_blank"><img src="img/25347.png"
+                                alt="Logo Twitter"> </a>
+                        <a href="https://www.facebook.com/CGIFrance" target="_blank"> <img
+                                src="img/logo-facebook-noir.png" alt="Logo facebook"></a>
+                        <a href="https://www.youtube.com/cgifrance_tv" target="_blank"> <img src="img/YT.png"
+                                alt="Logo youtube"></a>
+                </div>
+            </div>        
+        </footer>
+    </body>
+
+    
+</html>

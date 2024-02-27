@@ -1,0 +1,132 @@
+#Qui-est-CGI
+body {
+    background-color: #1d3557;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    margin-bottom: 25px;
+    padding-bottom: 0;
+
+
+    background: rgb(241,250,238);
+    background: linear-gradient(301deg, rgba(241,250,238,1) 0%, rgba(241,250,238,1) 40%, rgb(255, 255, 255) 100%); 
+/*
+f1faee
+1d3557
+*/
+
+    border-radius: 30px;
+}
+
+
+
+.culture-entreprise-divs {
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+    margin: auto;
+}
+
+
+
+.culture-entreprise-divs div {  
+    margin-top: 5px;
+    opacity: 0.95;
+    transition: transform 2s ease-out, opacity 1s ease-out, border-radius 1s ease-in-out;
+
+    
+    padding-left: 2em;
+}
+
+.culture-entreprise-divs div:nth-child(even):hover {
+    opacity: 1;
+    transform: translate(-10px) scale(1.01);
+    border-radius: 3em;
+}
+.culture-entreprise-divs div:nth-child(odd):hover {
+    opacity: 1;
+    transform: translate(10px) scale(1.01);
+    border-radius: 3em;
+}
+
+.culture-entreprise-divs div:nth-child(even) {
+    margin-left: 25%;
+
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    width: 75%;
+
+    border-radius: 5em;
+    background-color: #457b9d;    
+}
+
+.culture-entreprise-divs div:nth-child(odd) {
+    margin-right: 25%;
+    
+
+    flex-basis: 100px;
+    flex-grow: 0;
+    width: 75%;
+
+    border-radius: 5em;
+    background-color: #a8dadc;
+}
+
+
+.orgaContainer {
+    display: flex;
+    flex-direction: column;
+}
+.orgaContainer img {
+    width: 150px;
+    transition: 0.25s;
+}
+.orgaContainer p {
+    opacity: 0;
+
+    transition: 1s;
+
+    text-align: center;
+}
+.teteEntreprise {
+    display: flex;
+    flex-direction: column;
+}
+.regionMonde {
+    display: flex;
+    flex-direction: column;
+}
+.personnes {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    gap: 10px;
+
+}
+.tete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: 0.25s;
+}
+.tete:hover {
+    border: black 7px solid;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.tete:hover img {
+    width: 200px
+}
+.tete:hover p {
+    opacity: 1;
+}
